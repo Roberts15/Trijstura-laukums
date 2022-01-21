@@ -25,5 +25,8 @@ function nolasa(mala1, mala2, mala3) {
     const pusper = perimetrs(m1,m2,m3) /2;
     let laukums = Math.sqrt(ps * ((ps - m1) * (ps - m2) * (ps - m3)));
     console.log(laukums);
-    return laukums;
-  }
+    return laukums;}
+    function irTrijsturis(m1, m2, m3) {
+        if (m1 < m2 + m3 && m2 < m1 + m3 && m3 < m1 + m2) { return true; }else{ return false;}
+    }
+  
