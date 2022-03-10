@@ -62,9 +62,10 @@ function rezultats(m1, m2, m3) {
             const p = perimetrs(m1, m2, m3)
             const s = Math.round( laukums(m1, m2, m3)*100)/100;
             t+="Perimetrs ir "+p+" un laukums ir "+s+"."
+            console.log(t)
         }
     }
-    /*console.log(t)*/
+    console.log(t)
     return (t)
 }
 function izvadaTekstu(){
@@ -72,7 +73,7 @@ function izvadaTekstu(){
     console.log(teksts)
     const sakne = document.getElementById("izvade");
     const raksti = document.createElement("p");
-    raksti.innerHTML - teksts 
+    sakne.innerHTML = teksts 
     sakne.appendChild(raksti);
 }
 

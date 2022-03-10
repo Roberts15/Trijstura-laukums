@@ -1,14 +1,9 @@
 h1{
-    <color:#ff5050;
-    text-align:center;
+    color:#0f416b;
+    text-align: left;
     padding-top:1px;
     font-size:50px;
-  }
-  h2{
-   color:#FF0033;
-    padding-top:5;
-    margin-left:20px;
-    font-size:40px;
+    margin-left:50px;
   }
   p{
   font-size:20px;
@@ -19,30 +14,6 @@ h1{
   display:in-line;
   
   }
-  h3{
-    padding-top:;
-    font-size:25px;
-  font-family:Verdana;
-  margin-left:20px;
-  text-align:justify;
-  }
-  h4{
-      padding-top:;
-    font-size:25px;
-  font-family:Verdana;
-  margin-left:20px;
-  text-align:center;
-  }
-  h5{
-    font-size:40px;
-    text-align:center
-    
-  }
-  }
-  ol{
-  font-size:18px;
-  margin-left:20px;
-  }
   body{
     background-color:#d1d1e0;
   }
@@ -51,19 +22,33 @@ h1{
      background-repeat: no-repeat;
     background-size: cover;
   }
-  img{
-   
-    margin:15px 5px;
-  
-  }
-  table{
-     width: 100%;
+  input{
     margin:10px;
+    margin-left:50px;
+    background-color:#000000;
+    color:aliceblue;
   }
   table th, td{
   border: 2px solid black; 
   text-align:center;
-  img-align:center;
+  margin-left:50px
   }
-  th{
+  div{
+    font-size:20px;
+  font-family:Verdana;
+  margin-left:50px;
+  text-align:justify;
+  margin-right: 60px;
+  display:in-line;
+  }
+  button {
+    text-align:center;
+    background-color:#000000;
+    color:aliceblue;
+    margin-left:50px;
+    margin-bottom:10;
+  }
+  img{
+    margin-left:50px;
+    margin-bottom:10;
   }
